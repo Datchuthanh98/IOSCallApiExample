@@ -25,22 +25,22 @@
                                 </connections>
                             </tableView>
                             <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="medium" translatesAutoresizingMaskIntoConstraints="NO" id="TvG-fb-w5W">
-                                <rect key="frame" x="100" y="838" width="214" height="20"/>
+                                <rect key="frame" x="0.0" y="842" width="414" height="20"/>
                             </activityIndicatorView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="clE-dq-hyc">
-                                <rect key="frame" x="93" y="312" width="221" height="62"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="NO DATA" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="clE-dq-hyc">
+                                <rect key="frame" x="139.66666666666666" y="429" width="134.99999999999997" height="38.333333333333314"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="32"/>
+                                <color key="textColor" systemColor="systemRedColor" red="1" green="0.23137254900000001" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
-                            <constraint firstItem="TvG-fb-w5W" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="100" id="HZ9-4O-5XQ"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="TvG-fb-w5W" secondAttribute="trailing" constant="100" id="kJu-kY-ZXd"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="TvG-fb-w5W" secondAttribute="bottom" constant="100" id="lgq-st-a71"/>
-                            <constraint firstItem="TvG-fb-w5W" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="750" id="pMm-35-cMg"/>
+                            <constraint firstItem="TvG-fb-w5W" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="6hz-6R-bLu"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="TvG-fb-w5W" secondAttribute="trailing" id="IbA-ZB-Xfg"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="TvG-fb-w5W" secondAttribute="bottom" id="JH4-lQ-jny"/>
+                            <constraint firstItem="clE-dq-hyc" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="XkJ-pa-YKh"/>
+                            <constraint firstItem="clE-dq-hyc" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="xPw-yk-4FZ"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
